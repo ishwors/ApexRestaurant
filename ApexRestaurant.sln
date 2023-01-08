@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Repository", "ApexRestaurant.Repository\ApexRestaurant.Repository.csproj", "{2CD2D764-F107-4400-B437-E9999598398F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Services", "ApexRestaurant.Services\ApexRestaurant.Services.csproj", "{ED36B7D3-0EB6-4D35-960A-F28C02C074A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Api", "ApexRestaurant.Api\ApexRestaurant.Api.csproj", "{AE1702CD-27A6-420E-B1D9-55CBE3E39453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Mvc", "ApexRestaurant.Mvc\ApexRestaurant.Mvc.csproj", "{6F5E7E34-ED08-4873-AE9D-128F2A6178D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{2CD2D764-F107-4400-B437-E9999598398F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CD2D764-F107-4400-B437-E9999598398F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD2D764-F107-4400-B437-E9999598398F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED36B7D3-0EB6-4D35-960A-F28C02C074A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED36B7D3-0EB6-4D35-960A-F28C02C074A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED36B7D3-0EB6-4D35-960A-F28C02C074A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED36B7D3-0EB6-4D35-960A-F28C02C074A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1702CD-27A6-420E-B1D9-55CBE3E39453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1702CD-27A6-420E-B1D9-55CBE3E39453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1702CD-27A6-420E-B1D9-55CBE3E39453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1702CD-27A6-420E-B1D9-55CBE3E39453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5E7E34-ED08-4873-AE9D-128F2A6178D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5E7E34-ED08-4873-AE9D-128F2A6178D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5E7E34-ED08-4873-AE9D-128F2A6178D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5E7E34-ED08-4873-AE9D-128F2A6178D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
