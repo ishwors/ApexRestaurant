@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApexRestaurant.Services\ApexRestaurant.Services.csproj" />
+    <ProjectReference Include="..\ApexRestaurant.Repository\ApexRestaurant.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
