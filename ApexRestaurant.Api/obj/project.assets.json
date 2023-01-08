@@ -107,6 +107,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ApexRestaurant.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ApexRestaurant.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApexRestaurant.Repository.dll": {}
+        }
+      },
+      "ApexRestaurant.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ApexRestaurant.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApexRestaurant.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApexRestaurant.Services.dll": {}
+        }
       }
     }
   },
@@ -451,10 +474,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "ApexRestaurant.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ApexRestaurant.Repository/ApexRestaurant.Repository.csproj",
+      "msbuildProject": "../ApexRestaurant.Repository/ApexRestaurant.Repository.csproj"
+    },
+    "ApexRestaurant.Services/1.0.0": {
+      "type": "project",
+      "path": "../ApexRestaurant.Services/ApexRestaurant.Services.csproj",
+      "msbuildProject": "../ApexRestaurant.Services/ApexRestaurant.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ApexRestaurant.Repository >= 1.0.0",
+      "ApexRestaurant.Services >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -483,7 +518,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\myRepo\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+              "projectPath": "D:\\myRepo\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj"
+            },
+            "D:\\myRepo\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {
+              "projectPath": "D:\\myRepo\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
