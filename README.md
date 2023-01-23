@@ -1,2 +1,5 @@
-# ApexRestaurant
-An academic classwork project
+# ApexRestaurant API - Test performed at Postman
+
+### GET: http://localhost:5000/api/customer/
+
+
