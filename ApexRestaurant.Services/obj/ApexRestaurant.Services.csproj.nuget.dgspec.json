@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {}
+    "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {}
   },
   "projects": {
-    "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+    "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectUniqueName": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "projectName": "ApexRestaurant.Repository",
-        "projectPath": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectPath": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\obj\\",
+        "outputPath": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {
+    "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
+        "projectUniqueName": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
         "projectName": "ApexRestaurant.Services",
-        "projectPath": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
+        "projectPath": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\obj\\",
+        "outputPath": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
-                "projectPath": "D:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj"
+              "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+                "projectPath": "d:\\dotNET\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj"
               }
             }
           }
