@@ -4,8 +4,7 @@ using ApexRestaurant.Repository;
 
 namespace ApexRestaurant.Services
 {
-    public abstract class GenericService<T> : IGenericService<T>
-    where T : class, new()
+    public abstract class GenericService<T> : IGenericService<T> where T : class, new()
     {
         protected GenericService(IGenericRepository<T> entityRepository)
         {
