@@ -1,6 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ApexRestaurant.Repository.RCustomer;
+using ApexRestaurant.Repository.RMeal;
+using ApexRestaurant.Repository.RMealDish;
+using ApexRestaurant.Repository.RMenu;
+using ApexRestaurant.Repository.RMenuItem;
+using ApexRestaurant.Repository.RStaff;
+using ApexRestaurant.Repository.RStaffRole;
 
 namespace ApexRestaurant.Repository
 {
@@ -17,6 +23,12 @@ namespace ApexRestaurant.Repository
             ));
 
             services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IMealRepository, MealRepository> ();
+            services.AddTransient<IMealDishRepository, MealDishRepository> ();
+            services.AddTransient<IMenuRepository, MenuRepository> ();
+            services.AddTransient<IMenuItemRepository, MenuItemRepository> ();
+            services.AddTransient<IStaffRepository, StaffRepository> ();
+            services.AddTransient<IStaffRoleRepository, StaffRoleRepository> ();
         }
     }
 }
