@@ -1,5 +1,5 @@
-# ApexRestaurant API - Test performed at Postman
+# ApexRestaurant 
 
-### GET: http://localhost:5000/api/customer/
+### 
 
 
