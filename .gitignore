@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+swagger.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -475,3 +476,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+
